@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Michroma&display=swap');
+
+:root {
+  font-family: Jura, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+
+  --foreground: #213547;
+  --background: #f8f0e0;
+  --accent: #2937ff;
+  color-scheme: light dark;
+  color: var(--foreground);
+  background-color: var(--background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  transition: background-color 0.5s, color 0.5s;
+  /* outline: 1px solid red; */
+}
+
+.dark {
+  color-scheme: dark;
+  --foreground: #ffe9d3;
+  --background: #2f363e;
+  --accent: #ffb429;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent);
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (width < 780px) {
+  :root {
+    font-size: 16px;
+  }
+}

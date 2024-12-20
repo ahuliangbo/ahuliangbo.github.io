@@ -1,57 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="icon" href="logo.png?v=2">
-    <link rel="stylesheet" href = "style.css">
-</head>
-<body>
-    <script src = "app.js"> </script>
-    <!-- home title-->
-    <div class="👨">
-        <div class="📦">
-            <h1 id = "name" >Alex Hu
-            </h1>
-            <nav id = "nav-drop" >
-                <ul>
-                    <li> <a id = "current-page" href = "/" title = "Home" onclick="return false;" style="--order:1" > Home<hr></a></li>
-                    <li> <a  href = "../projects/" title = "Projects"  style="--order:2"> Projects
-                        </a></li>
-                    <li> <a href = "../experience" title = "Experience" style="--order:3"> Experience</a></li>
-                    <li> <a href="resume.pdf" target="_blank" title = "Resume" style="--order:4"> Resume</a></li>
-                </ul>
-            </nav>
-            <div id ="icons">
-                <a href="https://github.com/ahuliangbo" target="_blank">
-                    <img src="github.png" alt="Github link">
-                </a>
-                <a href="https://www.linkedin.com/in/ahuliangbo/" target="_blank">
-                    <img src="linkedin.png" alt="Linkedin link">
-                </a>
-                <input type="checkbox"
-                id="dropdown"
-                class="checkbox"
-                onclick="dropdown()"
-                checked/>
-                <label for="dropdown">
-                    <img src = "menu.png" />
-                </label>
-            </div>
-            
-        </div>
-        <h1 id = "page-title">About Me</h1>
-    </div>
-    <div class = "🧍‍♂️">
-      <p>Hello, my name is Alex Hu, and I'm currently studying Computer Science at the University of Texas at Austin.
-        I love playing games, working out, and <a href = "projects/" >making cool projects in Unity.</a>
-        <br>
-        <br>I'm deeply interested in all aspects of game development. If you'd like to get in touch with me, you can reach me at <a href="mailto:ahuliangbo@gmail.com">ahuliangbo@gmail.com.</a>
-      </p>
-      <img id = "selfie" src = "selfie.png">
-
-    </div>
-    <img id = "cat" src = "cat.png">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Hu</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
