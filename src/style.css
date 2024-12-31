@@ -9,6 +9,7 @@
   --foreground: #213547;
   --background: #f8f0e0;
   --accent: #2937ff;
+  --gold: #d6c214;
   color-scheme: light dark;
   color: var(--foreground);
   background-color: var(--background);
@@ -52,6 +53,7 @@ h1 {
 
 #app {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
